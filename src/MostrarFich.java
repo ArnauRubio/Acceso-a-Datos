@@ -2,7 +2,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.File;
 import java.nio.CharBuffer;
-
+//Ejer 3
 public class MostrarFich {
     public static void main(String[] args) throws IOException {
        /* File fichero = new File(".//LeerFichTexto.java");

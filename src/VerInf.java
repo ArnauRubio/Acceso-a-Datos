@@ -1,5 +1,5 @@
 import java.io.*;
-
+//Ejer 1?
 public class VerInf {
     public static void main(String[] args) {
         System.out.println("INFORMACIÓN SOBRE EL FICHERO:");

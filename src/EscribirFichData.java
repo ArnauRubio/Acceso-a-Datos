@@ -1,4 +1,5 @@
 import java.io.*;
+//Ejer 6.01
 public class EscribirFichData {
     public static void main(String[] args) throws IOException {
         File fichero = new File("FichData.dat");

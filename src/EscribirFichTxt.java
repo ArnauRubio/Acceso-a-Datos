@@ -2,7 +2,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-
+//Ejer 4
 public class EscribirFichTxt {
     public static void main(String[] args) throws IOException {
        /* //Ejer4

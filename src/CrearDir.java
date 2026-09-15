@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 
 import static java.nio.file.Files.delete;
-
+//Ejer 2
 public class CrearDir {
     public static void main(String[] args) throws IOException {
         File d = new File("NuevoDir");
