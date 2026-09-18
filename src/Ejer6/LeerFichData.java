@@ -1,10 +1,12 @@
+package Ejer6;
+
 import java.io.*;
 
 //Ejer 6
 public class LeerFichData {
     public static void main(String[] args) throws IOException {
 
-        File fichero = new File(".//FichData.dat"); //Fichero escrito con EscribirFichData.java
+        File fichero = new File(".//FichData.dat"); //Fichero escrito con Ejer6.EscribirFichData.java
         FileInputStream filein = new FileInputStream(fichero);
         DataInputStream dataIS = new DataInputStream(filein);
 

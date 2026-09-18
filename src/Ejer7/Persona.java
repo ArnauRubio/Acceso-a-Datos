@@ -1,3 +1,5 @@
+package Ejer7;
+
 import java.io.Serializable;
 
 //Ejer7

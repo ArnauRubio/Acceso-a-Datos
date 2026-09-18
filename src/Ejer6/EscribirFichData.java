@@ -1,3 +1,5 @@
+package Ejer6;
+
 import java.io.*;
 //Ejer 6.01
 public class EscribirFichData {

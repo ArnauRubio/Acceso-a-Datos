@@ -1,5 +1,6 @@
+package Ejer4_5;
+
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 //Ejer 4
