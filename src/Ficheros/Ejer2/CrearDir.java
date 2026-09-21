@@ -1,4 +1,4 @@
-package Ejer2;
+package Ficheros.Ejer2;
 
 import java.io.File;
 import java.io.IOException;

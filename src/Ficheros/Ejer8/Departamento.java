@@ -1,8 +1,8 @@
-package Ejer8;
+package Ficheros.Ejer8;
 
 import java.io.Serializable;
 
-//Ejer8
+//Ficheros.Ejer8
 public class Departamento implements Serializable {
 
     private String nombre;

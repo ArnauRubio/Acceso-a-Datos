@@ -1,8 +1,8 @@
-package Ejer8;
+package Ficheros.Ejer8;
 
 import java.io.*;
 
-//Ejer8
+//Ficheros.Ejer8
 public class ModificarFichObj {
     public static void main(String[] args) throws IOException {
         Departamento dep;

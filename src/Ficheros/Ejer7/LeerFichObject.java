@@ -1,13 +1,13 @@
-package Ejer7;
+package Ficheros.Ejer7;
 
 import java.io.*;
 
-//Ejer7
+//Ficheros.Ejer7
 public class LeerFichObject {
 
     public static void main(String[] args) throws IOException {
 
-        File fichero = new File(".//persona.dat"); //Fichero escrito con Ejer6.EscribirFichData.java
+        File fichero = new File(".//persona.dat"); //Fichero escrito con Ficheros.Ejer6.EscribirFichData.java
         FileInputStream filein = new FileInputStream(fichero);
         DataInputStream dataIS = new DataInputStream(filein);
 

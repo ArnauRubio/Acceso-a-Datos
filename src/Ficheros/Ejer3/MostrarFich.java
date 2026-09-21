@@ -1,4 +1,4 @@
-package Ejer3;
+package Ficheros.Ejer3;
 
 import java.io.FileReader;
 import java.io.IOException;

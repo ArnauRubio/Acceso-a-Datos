@@ -1,4 +1,4 @@
-package Ejer10;
+package Ficheros.Ejer10;
 
 import java.io.*;
 

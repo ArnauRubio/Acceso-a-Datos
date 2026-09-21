@@ -1,8 +1,8 @@
-package Ejer7;
+package Ficheros.Ejer7;
 
 import java.io.Serializable;
 
-//Ejer7
+//Ficheros.Ejer7
 public class Persona implements Serializable {
     private String nombre;
     private String apellidos;

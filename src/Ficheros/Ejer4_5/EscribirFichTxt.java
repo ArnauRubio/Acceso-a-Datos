@@ -1,4 +1,4 @@
-package Ejer4_5;
+package Ficheros.Ejer4_5;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

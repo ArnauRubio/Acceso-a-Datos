@@ -1,8 +1,8 @@
-package Ejer7;
+package Ficheros.Ejer7;
 
 import java.io.*;
 
-//Ejer7
+//Ficheros.Ejer7
 public class EscribirFichObject {
     public static void main(String[] args) throws IOException {
         File fichero = new File("persona.dat");

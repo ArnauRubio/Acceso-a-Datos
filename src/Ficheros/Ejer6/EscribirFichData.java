@@ -1,4 +1,4 @@
-package Ejer6;
+package Ficheros.Ejer6;
 
 import java.io.*;
 //Ejer 6.01

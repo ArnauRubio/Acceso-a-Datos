@@ -1,9 +1,9 @@
-package Ejer9;
+package Ficheros.Ejer9;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-//Ejer9
+//Ficheros.Ejer9
 public class EscribirFichAleatorio {
     public static void main(String[] args) throws IOException {
 
