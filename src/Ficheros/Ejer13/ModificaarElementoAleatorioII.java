@@ -1,11 +1,11 @@
 package Ficheros.Ejer13;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.RandomAccessFile;
+import java.io.*;
 
 public class ModificaarElementoAleatorioII {
     public static void main(String[] args) throws IOException {
+        BufferedReader br;
+        br = new BufferedReader(new InputStreamReader(System.in));
 
         File fichero = new File(".//AleatorioEmple.dat");
         RandomAccessFile file = new RandomAccessFile(fichero, "rw");
@@ -17,7 +17,7 @@ public class ModificaarElementoAleatorioII {
         double salario = 2500.0;
         char apellido[] = new char[10];
 
-        salario = Double.parseDouble(br.readline) + salario;
+        //salario = Double.parseDouble(br.readline) + salario;
         posicion = (id_empleado - 1)*36; //Porque cada empleado ocupa 36 bytes
 
         if (posicion >= file.length()){ //Si nos pasamos de largo, es que no existe el empleado
