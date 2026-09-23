@@ -5,25 +5,23 @@ import XML.Ejer1.Automovil;
 import java.io.*;
 
 public class SortInfoFich {
-    public static void main() throws IOException {
-       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    public static void main() throws IOException, ClassNotFoundException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         FileInputStream fiAutos = new FileInputStream("Deposito.dat");
         ObjectInputStream oiAutos = new ObjectInputStream(fiAutos);
 
         System.out.println("rango de busqueda: ");
         int b = Integer.parseInt(br.readLine());
+        Automovil automovil = (Automovil) oiAutos.readObject();
 
-        try {
-            while (oiAutos.available() > 0) {
+        while (automovil != null) {
 
-                Automovil automovil = (Automovil) oiAutos.readObject();
-                System.out.println(automovil);
+            if (automovil.getPrecio() <= b) {
+                automovil.mostrar();
             }
-        } catch (EOFException | ClassNotFoundException eo) {
-            throw new RuntimeException(eo);
-        }
-        oiAutos.close();  //cerrar stream
-    }
 
+            automovil = (Automovil) oiAutos.readObject();
+        }
+    }
 }

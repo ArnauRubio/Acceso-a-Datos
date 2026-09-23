@@ -3,19 +3,25 @@ package XML.Ejer1;
 import java.io.*;
 
 public class LeerFich {
-    public static void main() throws IOException {
+    public static void main(String[] args) throws IOException {
+
         FileInputStream fiAutos = new FileInputStream("Deposito.dat");
         ObjectInputStream oiAutos = new ObjectInputStream(fiAutos);
 
-
         try {
-            while (oiAutos.available() > 0) {
-               Automovil automovil = (Automovil) oiAutos.readObject();
-                System.out.println(automovil);
+            Automovil automovil = (Automovil) oiAutos.readObject();
+
+            while (automovil != null) {
+
+                automovil.mostrar();
+
+                automovil = (Automovil) oiAutos.readObject();
             }
-        } catch (EOFException | ClassNotFoundException eo) {
-            throw new RuntimeException(eo);
+
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
         }
-        oiAutos.close();  //cerrar stream
+
+        oiAutos.close();
     }
 }
