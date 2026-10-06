@@ -6,7 +6,7 @@ import java.io.IOException;
 public class MostrarBufferedFile {
     public static void main(String[] args) throws IOException {
         try {
-            FileReader fr = new FileReader("LeerFichTexto.java");
+            FileReader fr = new FileReader("Dats/LeerFichTexto.java");
             BufferedReader br = new BufferedReader(fr);
 
             String linea;

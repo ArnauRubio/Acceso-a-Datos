@@ -5,7 +5,7 @@ import XML.Ejer1.Automovil;
 import java.io.*;
 
 public class SortInfoFich {
-    public static void main() throws IOException, ClassNotFoundException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         FileInputStream fiAutos = new FileInputStream("Deposito.dat");

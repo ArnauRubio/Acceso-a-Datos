@@ -26,5 +26,9 @@ bin/
 ### VS Code ###
 .vscode/
 
+# Local Docker Compose settings
+.env
+/target/
+
 ### Mac OS ###
 .DS_Store
